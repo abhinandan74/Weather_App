@@ -4,6 +4,12 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
+/* Make images scale down on small screens */
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 body{
     background:#222 ;
 }
@@ -33,6 +39,7 @@ body{
     height: 60px;
     border-radius: 30px;
     flex: 1;
+    min-width: 0;
     margin-right: 16px;
     font-size: 18px;
 }
@@ -46,7 +53,8 @@ body{
     cursor: pointer;
 }
 .search button img{
-    width: 16px;
+    width: 20px;
+    height: auto;
 }
 .weather-icon{
     width: 170px;
