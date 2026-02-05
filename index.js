@@ -8,7 +8,7 @@ const btn = document.querySelector(".btn");
 btn.addEventListener("click",()=>{
     console.log("button clicked")
     console.log(inp.value)
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${inp.value}&appid=${apiKey}`;
+    const apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=${inp.value}&appid=${apiKey}`;
     checkWeather(apiUrl);
     console.log("data get");
 })
