@@ -1,5 +1,5 @@
 let a = 7;
-console.log("hello" ,a)
+console.log("hello",a)
 const apiKey = "586461230df55d17b756e5fc17ce7b5a";
 
 const inp  = document.querySelector("input"); 
