@@ -12,7 +12,7 @@ The app fetches live weather data using a weather API and displays details like 
 * 💧 Shows **humidity level**
 * 🌬 Shows **wind speed**
 * ☁ Displays **weather condition with icons**
-* 📱 **Responsive design** for mobile and desktop
+* 📱 **Responsive design** for mobile and desktop 
 
 ---
 
